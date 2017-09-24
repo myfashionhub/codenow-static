@@ -21,18 +21,32 @@ which is invisible information but helps the page become intepreted correctly by
 <h1>Workshop Todo List</h1>
 
 <!-- ul is unordered list element -->
-<ul>
+<ul class="item-list">
     <!-- Indent children tags to make them more readable -->
-    <li>Make the curriculum 4 pomodoros</li>
-    <li>Buy workshop supplies 3 pomodoros</li>
-    <li>Meet with the volunteer trainers 2 pomodoros</li>
-    <li>Order food for Saturday and Sunday 1 pomodoro</li>
-    <li>Check pre-work assignments 2 pomodoros</li>
-    <li>Send workshop location to all the students 1 pomodoro</li>
-    <li>Have a great workshop 0 pomodoros</li>
+    <li>
+        <input type="checkbox"/>
+        Nessa's <a href="https://docs.google.com/document/d/1_CJ1hht4Hp3b7WKOZkyjCFfqbRf9mV5cmMU_htKblKs/edit?usp=sharing">live code demo</a>
+    </li>
+    <li>
+        <input type="checkbox"/> Add classes and IDs to elements
+    </li>
+    <li>
+        <input type="checkbox"/> Learn CSS selectors
+    </li>
+    <li> <input type="checkbox"/> Apply styles using selectors
+    </li>
+    <li>
+        <input type="checkbox"/> Interact with elements using jQuery
+    </li>
+    <li>
+        <input type="checkbox"/> Commit code and push to Github
+    </li>
 </ul>
 
-<a href="/add.html">Add todo</a>
+<form class="add-todo">
+    <input type="text" id="new-todo"/>
+    <button>Add</button>
+</form>
 
 </body>
 </html>
