@@ -16,8 +16,8 @@ function addItemToList() {
 }
 
 function markItemAsDone(e) {
-    var itemLi = $(e.parent);
-    itemLi.addClass('done');
+    var itemLi = $(e.target).parent();
+    itemLi.toggleClass('done');
 }
 
 $(function() {
