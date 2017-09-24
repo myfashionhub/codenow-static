@@ -1,3 +1,28 @@
 body {
     font-family: Helvetica;
+    background-color: lightblue;
+}
+
+.content {
+    width: 600px;
+    display: block;
+    margin: 50px auto;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 40px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.item-list {
+    list-style-type: none;
+}
+
+.item-list li.done {
+    text-decoration: line-through;
+    font-style: italic;
 }
